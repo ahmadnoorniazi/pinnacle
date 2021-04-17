@@ -1,6 +1,6 @@
 import React from "react";
 
-const App = ({ height }) => {
+const App = ({ height, viewbox }) => {
   return (
     <div>
       <svg
@@ -8,7 +8,7 @@ const App = ({ height }) => {
         xmlns="http://www.w3.org/2000/svg"
         width="359.000000pt"
         height={height || "131.000000pt"}
-        viewBox="0 0 100.000000 131.000000"
+        viewBox={viewbox ||"0 0 100.000000 131.000000"}
         preserveAspectRatio="xMidYMid meet"
       >
         <metadata>

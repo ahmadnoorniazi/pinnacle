@@ -5,6 +5,7 @@ import "./index.css";
 import Question from "../../Components/Question";
 import Button from "../../Components/Button";
 import { useForm } from "react-hook-form";
+import {useHistory} from 'react-router-dom'
 
 const Homepage = () => {
   const [isBeginClimb, setIsBeginClimb] = useState(false);
@@ -28,6 +29,7 @@ const Homepage = () => {
     }
   ]);
   const { register, handleSubmit } = useForm();
+  const history = useHistory()
   const onSubmit = (data) => {
     console.log("onSub  ");
     onBeginClimb();
@@ -38,7 +40,7 @@ const Homepage = () => {
     if (currentQuestion !== questionsList.length - 1) {
       onNextQuestion();
     } else {
-      alert("submit");
+      history.push("/story-details/1")
     }
   };
 

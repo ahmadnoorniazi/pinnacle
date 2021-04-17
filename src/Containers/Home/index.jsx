@@ -10,7 +10,7 @@ const Homepage = () => {
       <Layout height="600px">
         <div>
           <div>
-            <Logo />
+            <Logo viewbox="140 0 100.000000 131.000000" />
           </div>
           <div className="home-main-text">
             An Alternative Method of Copying Without a Face to Face Interaction
