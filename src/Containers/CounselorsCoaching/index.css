@@ -1,0 +1,41 @@
+.coaching-heading-one > h1 {
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  width: 500px;
+}
+
+.coaching-heading-second > h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  width: 500px;
+}
+
+.coaching-heading-second{
+  margin-top:20px;
+  margin-bottom: 30px;
+}
+
+.coaching-heading-one,.coaching-heading-second {
+  text-align: -webkit-center;
+}
+
+
+.coaching-content{
+  margin-top:30px;
+}
+
+
+.coaching-chat-main{
+  display:flex;
+  margin-top:40px
+}
+
+.coaching-chat-profile-section{
+  width: 25%;
+}
+.coaching-chat-messages-section{
+  width: 75%;
+}

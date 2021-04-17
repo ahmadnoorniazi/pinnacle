@@ -1,0 +1,18 @@
+.user-profile-card-body{
+  display:flex;
+  justify-content:space-between;
+
+}
+
+.user-card-message{
+  margin: auto;
+  max-height: 150px;
+  overflow: hidden;
+  color: #fff
+
+}
+
+.user-card-logo{
+  margin: auto;
+  margin-right: 10px;
+}

@@ -1,0 +1,23 @@
+.journey-main-heading > h2{
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.journey-book-slider-section > h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.journey-main-heading{
+  padding: 30px
+}
+
+.journey-book-slider-section{
+  padding: 20px
+}
+
+.story-slider-section{
+  text-align: -webkit-center;
+}

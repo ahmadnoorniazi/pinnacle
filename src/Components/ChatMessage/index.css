@@ -1,0 +1,84 @@
+/* tile uploaded pictures */
+.comment-action {
+  padding-left: 8px;
+  cursor: 'auto';
+}
+
+[class*='-col-rtl'] .comment-action {
+  padding-right: 8px;
+  padding-left: 0;
+}
+
+.chat-message-text{
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.chat-user-name{
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+}
+
+.chat-message-text-box{
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.user-message-card-body{
+  display:inline-flex;
+  margin-left: 30px;
+  margin-bottom: 20px;
+
+}
+
+.user-card-message{
+  margin: auto;
+  max-height: 150px;
+  overflow: hidden;
+  color: #fff
+
+}
+
+.user-message-card-logo{
+  margin: auto;
+  margin-right: 30px;
+}
+
+.user-message-box{
+  background: #fff;
+  color: black;
+  padding:10px;
+  border-radius: 10px;
+  width:600px;
+}
+
+.second-person {
+  flex-direction: row-reverse;
+  margin-left: 90px;
+}
+
+.second-person-logo{
+  margin-right: 0px;
+  margin-left: 30px
+}
+
+.message-date > h5{
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.message-time{
+  font-weight: bold;
+  color: #fff;
+  font-size: 14px;
+  text-align: left;
+}
+
+.float-right{
+  text-align: right;
+}
