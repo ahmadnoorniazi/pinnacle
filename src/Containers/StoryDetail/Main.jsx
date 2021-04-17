@@ -5,7 +5,7 @@ import StoryBook from "./index";
 
 const MainStory = () => {
   return (
-    <Layout>
+    <Layout height="100vh">
       <StoryBook />
     </Layout>
   );
